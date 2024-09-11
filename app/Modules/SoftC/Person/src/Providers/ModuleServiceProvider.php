@@ -2,7 +2,11 @@
 
 namespace SoftC\Person\Providers;
 
-class ModuleServiceProvider
+use SoftC\Core\Providers\BaseModuleServiceProvider;
+
+class ModuleServiceProvider extends BaseModuleServiceProvider
 {
-    protected $models = [];
+    protected $models = [
+        SoftC\Person\Models\Person::class
+    ];
 }
