@@ -9,6 +9,6 @@ class PersonsController extends Controller
 {
     public function index(){
         //return 'Shiny Controller';
-        return view('softc::persons.index');
+        return view('softc::person.index');
     }
 }
