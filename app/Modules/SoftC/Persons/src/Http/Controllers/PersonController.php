@@ -1,6 +1,6 @@
 <?php
 
-namespace SoftC\Person\Http\Controllers;
+namespace SoftC\Persons\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

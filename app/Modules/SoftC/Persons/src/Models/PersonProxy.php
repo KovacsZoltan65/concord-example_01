@@ -1,6 +1,6 @@
 <?php
 
-namespace SoftC\Person\Models;
+namespace SoftC\Persons\Models;
 
 use Konekt\Concord\Proxies\ModelProxy;
 

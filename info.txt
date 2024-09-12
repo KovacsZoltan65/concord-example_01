@@ -14,5 +14,6 @@ php artisan make:module ShinyModule
 
 php artisan concord:modules
 
+composer clear-cache
 
 http://localhost:8000/shiny

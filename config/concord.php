@@ -10,9 +10,14 @@ return [
          */
         App\Modules\ShinyModule\Providers\ModuleServiceProvider::class => [
             'views' => [
-                'namespace' => 'softc'
+                'namespace' => 'shiny'
             ]
         ],
+        SoftC\Persons\Providers\ModuleServiceProvider::class => [
+            'views' => [
+                'namespace' => 'softc'
+            ]
+        ]
     ],
     'register_route_models' => true
 ];

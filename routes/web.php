@@ -13,4 +13,4 @@ Route::get('/', function () {
 
 Route::get('/shiny', [App\Modules\ShinyModule\Http\Controllers\PersonsController::class, 'index']);
 
-Route::get('/person', [SoftC\Person\Http\Controllers\PersonController::class, 'index']);
+Route::get('/persons', [SoftC\Person\Http\Controllers\PersonController::class, 'index']);

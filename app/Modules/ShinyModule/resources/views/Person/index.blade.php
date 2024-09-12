@@ -1,7 +1,7 @@
-<x-softc::layouts>
+<x-shiny::layouts>
 
     <x-slot:title>
-        @lang('softc::persons.title')
+        @lang('app.persons.title')
     </x-slot:title>
 
-</x-softc::layouts>
+</x-shiny::layouts>
