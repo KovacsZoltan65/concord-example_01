@@ -1,0 +1,24 @@
+{
+    "name": "softc/installer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kovács Zoltán",
+            "email": "kovacs.zoltan@softc.hu"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "SoftC\\Installer\\": "App/Modules/SoftC/Installer/src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SoftC\\Installer\\Providers\\InstallerServiceProvider"
+            ]
+        }
+    }
+}
