@@ -1,8 +1,8 @@
 <?php
 
-namespace SoftC\Person\Models;
+namespace SoftC\Persons\Models;
 
-use SoftC\Person\Contracts\Person as PersonContract;
+use SoftC\Persons\Contracts\Person as PersonContract;
 
 class Person implements PersonContract
 {
