@@ -3,10 +3,11 @@
 namespace SoftC\Persons\Providers;
 
 use SoftC\Core\Providers\BaseModuleServiceProvider;
+use SoftC\Persons\Models\Person;
 
 class ModuleServiceProvider extends BaseModuleServiceProvider
 {
     protected $models = [
-        //SoftC\Person\Models\Person::class
+        Person::class,
     ];
 }

@@ -4,6 +4,7 @@ namespace SoftC\Persons\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
+use Illuminate\Support\Facades\Blade;
 
 class PersonServiceProvider extends ServiceProvider
 {
@@ -16,6 +17,8 @@ class PersonServiceProvider extends ServiceProvider
         $this->loadTranslationsFrom(__DIR__ . '/../resources/lang', 'person');
 
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'person');
+
+        Blade::anonymousComponentPath(__DIR__.'/../resources/views/components', 'person');
 
         $this->publishes([
             dirname(__DIR__).'/Config/softc.php' => config_path('softc.php'),
